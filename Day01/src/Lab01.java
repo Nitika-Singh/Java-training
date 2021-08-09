@@ -2,6 +2,7 @@ import java.util.Scanner;
 
 public class Lab01 {
     public static void main(String[] args) {
+        //System.out.println(Math.random() * 100);
         int target = (int)(Math.random() * 100);
         int attempts = 0;
         String message = "";
