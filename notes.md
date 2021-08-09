@@ -30,4 +30,24 @@
 * Discuss it
 
 
+#### Data types
+
+* Datatypes SHOULD be specified for the variables
+* Can be __int, long, boolean, double, char__
+* These are called __primitive data types__
+* The variables are usually stored in the stack.
+* Every function gets executed in a separate stack frame. Similar to a shelf in a cupboard(stack)
+* All the variables defined inside a function are called __local__ variables
+* Their scope is __local__.
+* All local variables MUST BE initialized to some value before using them
+
+
+
+
+
+
+
+
+
+
 
