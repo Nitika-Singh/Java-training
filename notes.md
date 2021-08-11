@@ -41,7 +41,7 @@
 * Their scope is __local__.
 * All local variables MUST BE initialized to some value before using them
 
-### Day 01 
+### Day 01 (recap)
 
 * JDK; Tools like compiler, jvm
 * public static void main(String[] args)
@@ -54,7 +54,14 @@
 * All primitive types are passed by value by default
 * A copy of the value is taken and passed to the function. Changes made in the function does not get reflected
 
+#### Reference types
 
+* Strings, Arrays are examples of ref types
+* Usually created using __new__ keyword
+* Stored on the heap
+* References are stored in the stack. THey actual object is stored on the heap
+* Custom reference types
+* __Class__
 
 
 
