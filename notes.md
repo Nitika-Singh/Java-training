@@ -41,6 +41,32 @@
 * Their scope is __local__.
 * All local variables MUST BE initialized to some value before using them
 
+### Day 01 
+
+* JDK; Tools like compiler, jvm
+* public static void main(String[] args)
+* Primitive data types; int, long, double, boolean, char
+* JVM takes care of memory;
+* Stored in stack; Every function gets executed in a stack; all the local variables are stored in the stack
+* Local variables have to initialized before you use them
+* Arrays; fixed sized collection
+* Arrays are __reference types__ they are stored on the heap
+* All primitive types are passed by value by default
+* A copy of the value is taken and passed to the function. Changes made in the function does not get reflected
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
