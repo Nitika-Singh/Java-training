@@ -8,7 +8,7 @@ public class PassByRef {
         //Name gets initialize by calling a database
         //Name has to be initialized by calling an external Web service
     }
-    
+
     static void initializeLetters(char[] alphabets) {
         alphabets[0] = 'K';
         alphabets[1] = 'i';
