@@ -11,22 +11,22 @@
 
 
 * [x] Introduction to Java
-* JAVA Naming RULES & CONVENTIONS.
-* Classes
-* Objects
-* Instances
+* [x] JAVA Naming RULES & CONVENTIONS.
+* [x] Classes
+* [x] Objects
+* [x] Instances
 * Difference in Objects of C++ and JAVA.
-* Concept of JDK,JRE and JVM
-* Constructors.
-* Instance and Local Variables.
-* JAVA Naming RULES & CONVENTIONS.
+* [x] Concept of JDK,JRE and JVM
+* [x] Constructors.
+* [x] Instance and Local Variables.
+* [x] JAVA Naming RULES & CONVENTIONS.
 * Static Variables and Methods.
-* Source File Declaration Rules.
-* Writing Your First Java Program
-* Installing JDK
+* [x] Source File Declaration Rules.
+* [x] Writing Your First Java Program
+* [x] Installing JDK
 * Configuring Java Variables on System
-* Writing First Java Program
-* Compilation and Execution
+* [x] Writing First Java Program
+* [x] Compilation and Execution
 
 * Inheritance
 * Introduction to Inheritance
@@ -50,10 +50,10 @@
 * String Methods (with practical’s)
 * String Buffer and String Builder and Regular Expression
 
-* Arrays
-* Introduction to Array
-* 1-D Array
-* Object Arrays
+* [x] Arrays
+* [x] Introduction to Array
+* [x] 1-D Array
+* [x] Object Arrays
 * 2-D Array
 * Objects in 2-D Array
 
@@ -72,8 +72,8 @@
 * Throwing our Exceptions.
 
 * Understanding the concept of packages.
-* Making our own package
-* Understanding access specifier.
+* [x] Making our own package
+* [x] Understanding access specifier.
 * Making our own jar file and setting in classpath.
 * GENERICS & COLLECTION 
 
