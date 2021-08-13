@@ -10,7 +10,7 @@
 #### ToDo (_Not in the same order_)
 
 
-* Introduction to Java
+* [x] Introduction to Java
 * JAVA Naming RULES & CONVENTIONS.
 * Classes
 * Objects
