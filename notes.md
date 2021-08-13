@@ -65,6 +65,16 @@
 
 
 
+#### Day 02 (Recap)
+
+* Technically, if you want to create a new reference type, you define a class
+* Class represents a real world entity
+* Class has characteristics (variables) and behavior(methods)
+* Create an instance of the class using __new__ keyword; Create objects by instantiating a class using __new__ keyword
+* __Person sam = new Person();__
+* sam is on the stack. The Person object is created on the heap
+* 
+
 
 
 
