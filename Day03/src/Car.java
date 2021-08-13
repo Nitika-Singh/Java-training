@@ -1,3 +1,11 @@
+//All class names begin with Uppercase
+//All variables begin with lowercase
+//All methods begin with lowercase
+//Naming follows camelCase notation
+//getYearOfMake(), getModel(), setYearOfMake()
+//All classes are public
+//All member variables are defined as private
+//Provide access to them using public getters/setters
 public class Car {
     private String model;
     private int yearOfMake;
