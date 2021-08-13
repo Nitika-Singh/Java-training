@@ -7,6 +7,9 @@ public class Account {
     private double balance;
     private int withdrawCount;
     private ArrayList<Transaction> transactions;
+    private final String DEBIT = "Debit";
+    private final String CREDIT = "Credit";
+    private final String FEE = "Fee (Debit)";
 
     public Account(double balance) {
         if(balance < 10000) {
@@ -23,7 +26,7 @@ public class Account {
 
     public void deposit(double amount) {
         balance += amount;
-        recordTransaction(amount, "Credit");
+        recordTransaction(amount, CREDIT);
     }
 
     private void recordTransaction(double amount, String type) {
@@ -44,12 +47,12 @@ public class Account {
                 } else {
                     balance -= amount;
                     balance -= fee;
-                    recordTransaction(amount, "Debit");
-                    recordTransaction(fee, "Fee (Debit)");
+                    recordTransaction(amount, DEBIT);
+                    recordTransaction(fee, FEE);
                 }
             } else {
                 balance -= amount;
-                recordTransaction(amount, "Debit");
+                recordTransaction(amount, DEBIT);
             }
         }
     }
