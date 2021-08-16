@@ -76,7 +76,16 @@
 * 
 
 
+#### Day 03 (Recap)
 
+* String in Java is an immutable reference type
+* String literals are stored in __String pools__
+* Every literal has a reference from an object in the heap
+* Strings can be created with or without using __new__ keyword
+* When you try to change the value of a string, a new literal is created and a new implicit object is created on the heap to refer to the literal
+* Lot of string manipulation leads to a lot of objects on the heap
+* So strings are better used as Constants (final)
+* If you want to manipulate strings use __StringBuffer__ class instead
 
 
 
