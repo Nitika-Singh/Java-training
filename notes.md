@@ -88,7 +88,15 @@
 * If you want to manipulate strings use __StringBuffer__ class instead
 
 
+#### Extensibility
 
+* Class has attributes and methods
+* When there is a __has-a__ relationship you represent that using variables in your class
+* Car __has-a__ model, color, year of make
+* Define a class and create model, color and yearOfMake variables
+* __is-a__ relationship
+* Car __is-a__ Vehicle
+* Using a keyword __extends__
 
 
 
