@@ -98,6 +98,22 @@
 * Car __is-a__ Vehicle
 * Using a keyword __extends__
 
+#### Rules of inheritance in Java
+
+* Derived class constructor __SHOULD__ have a call to the __SUPER class__ constructor using __super__ keyword
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
