@@ -44,11 +44,11 @@
 * Marker Interfaces
 * String
 
-* Introduction to String
-* String and Memory management
-* Why are Strings final?
-* String Methods (with practical’s)
-* String Buffer and String Builder and Regular Expression
+* [x] Introduction to String
+* [x] String and Memory management
+* [x] Why are Strings final?
+* [x] String Methods (with practical’s)
+* [x] String Buffer and String Builder and Regular Expression
 
 * [x] Arrays
 * [x] Introduction to Array
