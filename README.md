@@ -33,14 +33,14 @@
 * [x] Thumb Rule 1 (with practical)
 * [x] Super keyword
 * [x] Thumb Rule 2
-* Method Overriding Final keyword Manifest Constants
-* Interface and Abstract Class 
+* [x] Method Overriding Final keyword Manifest Constants
+* [x] Interface and Abstract Class 
 
-* Abstract Class
-* Abstract Methods vs Non abstract methods
-* Why Interfaces
-* Multiple Interface Implementation
-* Inheritance in Interfaces
+* [x] Abstract Class
+* [x] Abstract Methods vs Non abstract methods
+* [x] Why Interfaces
+* [x] Multiple Interface Implementation
+* [x] Inheritance in Interfaces
 * Marker Interfaces
 * [x] String
 
@@ -54,14 +54,14 @@
 * [x] Introduction to Array
 * [x] 1-D Array
 * [x] Object Arrays
-* 2-D Array
-* Objects in 2-D Array
+* [x] 2-D Array
+* [x] Objects in 2-D Array
 
-* Wrapper Class and Boxing
-* Overview of Wrapper Class
-* Methods of Wrapper Class
-* Conversion from Wrapper to primitive and vice-versa
-* Creating and Using Wrapper Classes Objects.
+* [x] Wrapper Class and Boxing
+* [x] Overview of Wrapper Class
+* [x] Methods of Wrapper Class
+* [x] Conversion from Wrapper to primitive and vice-versa
+* [x] Creating and Using Wrapper Classes Objects.
 * Overloading in Wrapper Class
 * Exception Handling and Packages
 * Using try..catch
@@ -77,11 +77,11 @@
 * Making our own jar file and setting in classpath.
 * GENERICS & COLLECTION 
 
-* List Interface
-* Set Interface.
-* Map Interface.
+* [x] List Interface
+* [x] Set Interface.
+* [x] Map Interface.
 * Query Interface.
-* ArrayList
+* [x] ArrayList
 * TreeSet
 * TreeMaps
 * Sorting Collections and Arrays
