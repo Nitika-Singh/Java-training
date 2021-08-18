@@ -15,17 +15,17 @@ public class AccountUser {
         account.printStatement();
 
         System.out.println("=====Current Account====");
-        CurrentAccount currentAccount = new CurrentAccount(2000000);
+        Account currentAccount = new CurrentAccount(2000000);
         currentAccount.deposit(1000);
         currentAccount.deposit(1000);
         for(int i = 0; i < 15; i++) {
-            currentAccount.withdraw(100);
+            currentAccount.withdraw(100); //Step 1
         }
         System.out.println("*****Statement******");
         currentAccount.printStatement();
 
         System.out.println("=====Premium Current Account====");
-        PremiumCurrentAccount premiumCurrentAccount = new PremiumCurrentAccount(2000000);
+        Account premiumCurrentAccount = new PremiumCurrentAccount(2000000);
         premiumCurrentAccount.deposit(1000);
         premiumCurrentAccount.deposit(1000);
         for(int i = 0; i < 110; i++) {

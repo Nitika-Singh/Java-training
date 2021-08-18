@@ -39,12 +39,12 @@ public class Account {
         transactions.add(txn);
     }
 
-    public void withdraw(double amount) {
+    public void withdraw(double amount) { //4
         if(balance < amount) {
             System.out.println("Insufficient balance");
         } else {
             withdrawCount++;
-            if (withdrawCount > getWithdrawLimit()) {
+            if (withdrawCount > getWithdrawLimit()) { //5
                 double fee = amount * 0.005;
                 if(balance < fee) {
                     System.out.println("Insufficient balance");
