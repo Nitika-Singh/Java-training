@@ -12,3 +12,22 @@
 * __Note:__ Use simple sysout statements in activate and deactivate operations for simplicity
 
 * Always keep in mind the __has-a__ and __is-a__ relationships when you design
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
