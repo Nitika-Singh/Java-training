@@ -28,11 +28,11 @@
 * [x] Writing First Java Program
 * [x] Compilation and Execution
 
-* Inheritance
-* Introduction to Inheritance
-* Thumb Rule 1 (with practical)
-* Super keyword
-* Thumb Rule 2
+* [x] Inheritance
+* [x] Introduction to Inheritance
+* [x] Thumb Rule 1 (with practical)
+* [x] Super keyword
+* [x] Thumb Rule 2
 * Method Overriding Final keyword Manifest Constants
 * Interface and Abstract Class 
 
@@ -42,7 +42,7 @@
 * Multiple Interface Implementation
 * Inheritance in Interfaces
 * Marker Interfaces
-* String
+* [x] String
 
 * [x] Introduction to String
 * [x] String and Memory management
@@ -95,9 +95,7 @@
 * Date and Time API
 * JDBC API
 
-
 * Java I/O 
-
 * File Navigation
 * Input Output with Disk Files
 * Serialization

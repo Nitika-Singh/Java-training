@@ -103,10 +103,31 @@
 * Derived class constructor __SHOULD__ have a call to the __SUPER class__ constructor using __super__ keyword
 
 
+#### Day 04 (Recap)
+
+* Base class object is created when a derived class is instantiated.
+* Base class can act as a reference to Derived class object
+
+``` java
+class Book {}
+class HistoryBook extends Book {}
+class MathsBook extends Book {}
+
+Book b1 = new Book();
+HistoryBook hb = new HistoryBook();
+
+Book b = new HistoryBook();
+b = new MathsBook();
+
+void read(Book book) {
+	book.flipPages();
+}
+
+read(new MathsBook());
+read(new HistoryBook());
 
 
-
-
+```
 
 
 
