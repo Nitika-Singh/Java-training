@@ -1,4 +1,4 @@
-* Create a package __com.intuit.lab07__
+* Create a package __com.jpmc.lab07__
 
 * Design a __door__ that will be monitored by an __alarm__
 * When you open the door the alarm gets __activated__
