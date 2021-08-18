@@ -16,6 +16,7 @@ public class AccountUser {
 
         System.out.println("=====Current Account====");
         Account currentAccount = new CurrentAccount(2000000);
+        //CurrentAccount currentAccount = new CurrentAccount(2000000);
         currentAccount.deposit(1000);
         currentAccount.deposit(1000);
         for(int i = 0; i < 15; i++) {
