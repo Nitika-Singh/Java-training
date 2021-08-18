@@ -130,6 +130,12 @@ read(new HistoryBook());
 ```
 
 
+### abstract classes
+
+* Similar to normal classes; can have variables; methods; constructors; can extends other classes;
+* CAN have __abstract__ methods also
+* Abstract methods are those that don't have any implementation; and are marked as __abstract__
+* CANNOT be instantiated
 
 
 
