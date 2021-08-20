@@ -13,27 +13,27 @@
 > Enter 'n' to create a new Counter object, 'i' to increment, 'd' to Decrement, 'c' for object count, 'q' to quit.
 
 > n
-_Counter object created_
+Counter object created
 > i
-_Counter value: 1_
+Counter value: 1
 > i
-_Counter value: 2_
+Counter value: 2
 > d
-_Counter value: 1_
+Counter value: 1
 > d
-_Counter value: 0_
+Counter value: 0
 > d
-_Counter value: 3_
+Counter value: 3
 > n
-_Counter object created_
+Counter object created
 > c
-_Object count: 2_
+Object count: 2
 > i
-_Counter value: 1_
+Counter value: 1
 > ZZ
-__Invalid input.__ 
+Invalid input. 
 Enter 'n' to create a new Counter object, 'i' to increment, 'd' to Decrement, 'c' for object count, 'q' to quit.
 > q
-_Bye bye_
+Bye bye. 
 
 ```
