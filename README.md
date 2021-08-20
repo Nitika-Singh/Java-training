@@ -63,13 +63,13 @@
 * [x] Conversion from Wrapper to primitive and vice-versa
 * [x] Creating and Using Wrapper Classes Objects.
 * Overloading in Wrapper Class
-* Exception Handling and Packages
-* Using try..catch
-* Using Finally.
+* [x] Exception Handling and Packages
+* [x] Using try..catch
+* [x] Using Finally.
 * Try with Resources
-* Defining Exceptions.
-* Hierarchy of Exception.
-* Throwing our Exceptions.
+* [x] Defining Exceptions.
+* [x] Hierarchy of Exception.
+* [x] Throwing our Exceptions.
 
 * Understanding the concept of packages.
 * [x] Making our own package
@@ -82,9 +82,9 @@
 * [x] Map Interface.
 * Query Interface.
 * [x] ArrayList
-* TreeSet
-* TreeMaps
-* Sorting Collections and Arrays
+* [x] TreeSet
+* [x] TreeMaps
+* [x] Sorting Collections and Arrays
 * Generic Declaration
 * Generic Methods
 * Polymorphism and Generics
