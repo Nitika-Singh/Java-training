@@ -126,9 +126,7 @@ void read(Book book) {
 read(new MathsBook());
 read(new HistoryBook());
 
-
 ```
-
 
 ### abstract classes
 
@@ -138,11 +136,20 @@ read(new HistoryBook());
 * CANNOT be instantiated
 
 
+### Day 05 (recap)
+
+* __java.util__ contains collection classes
+* List, Set and Map
+* Set does not allow duplicates
+* Map is a key-value pair collection
+* Growable collections
 
 
-
-
-
+* __Maven__ project or __Gradle__
+* Maven gives you a structure for your project
+* It is a build tool
+* You can write code, run test cases, package your code
+* You can include the libraries that you want to use
 
 
 
