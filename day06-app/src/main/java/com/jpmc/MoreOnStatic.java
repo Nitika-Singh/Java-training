@@ -20,8 +20,11 @@ public class MoreOnStatic {
     }
 }
 
+
+
 class Animal {
     public static void makeNoise() {}
+    //static class Cat {} -> Inner class
 }
 class Dog extends Animal {
     public static void makeNoise() {}
