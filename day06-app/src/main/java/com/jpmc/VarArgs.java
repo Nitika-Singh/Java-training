@@ -1,7 +1,9 @@
 package com.jpmc;
 
 public class VarArgs {
+    static int i = 10;
     public static void main(String[] args) {
+
         System.out.println(add(10, 20, 30));
         System.out.println(add(10, 20, 30, 40, 50, 60));
     }
