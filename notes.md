@@ -171,6 +171,30 @@ read(new HistoryBook());
 * Modern libraries like Spring handle the exceptions internally, so use of finally, throws isn't a major issue.
 
 
+### Keywords/concepts not widely used these days
+
+* Most of these items are not widely used in applications these days. The developer may not see a need to use these keywords/concepts in modern day development. 
+
+* this keyword
+* static methods
+* try-finally
+* __throws__ keyword, because a lot of libraries nowadays throw only __unchecked__ exceptions 
+* protected
+* __constructor__ not really preferred. getter/setters are preferred a lot more than constructors
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
