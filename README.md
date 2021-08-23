@@ -20,7 +20,7 @@
 * [x] Constructors.
 * [x] Instance and Local Variables.
 * [x] JAVA Naming RULES & CONVENTIONS.
-* Static Variables and Methods.
+* [x] Static Variables and Methods.
 * [x] Source File Declaration Rules.
 * [x] Writing Your First Java Program
 * [x] Installing JDK

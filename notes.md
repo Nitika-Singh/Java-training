@@ -152,8 +152,23 @@ read(new HistoryBook());
 * You can include the libraries that you want to use
 
 
+### Day 06 (recap)
 
+* static keyword
+* static means __shared__. Shared by all the objects of a class.
+* There is only one copy of a static variable in the entire application
+* You can initialize static members using static initializer block __static {}__
+* Static members are loaded the first you access the class to instantiate or access a static member
+* From static methods, you cannot access a __non-static__ member directly
+* static methods are not overridden
+* The more you use static methods, lesser the extensibility. Use static members judiciously
 
+* Exception Handling
+* try, catch, finally, throw, throws
+* Checked and Unchecked exceptions
+* Checked exceptions need to be handled in your program either using try-catch or giving a warning using throws keyword
+* Any exception of type RuntimeException is an unchecked exception
+* Modern libraries like Spring handle the exceptions internally, so use of finally, throws isn't a major issue.
 
 
 
