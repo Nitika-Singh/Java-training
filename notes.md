@@ -185,10 +185,28 @@ read(new HistoryBook());
 
 
 
+### Default items
+
+* By default __java.lang__ package is automatically imported to all our code
+* Exception, String, Integer
+* Every class in Java has a default base class called __java.lang.Object__ 
 
 
+### Packaging
 
+* Deployable entities in Java: jar file or a war file
+* jar is Java archive
+* war is Web archive
+* jar is a collection of .class files spread across several packages
+ 
 
+##### Create a jar
+
+* Type in code
+* compile it
+* Use jar command
+* __jar cf monday.jar com/jpmc/*.class__
+* __java -cp ./monday.jar com.jpmc.Bye__
 
 
 
