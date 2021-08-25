@@ -213,6 +213,7 @@ read(new HistoryBook());
 * __java.sql__
 * Create a connection using __Connection__object 
 * Pass your SQL queries using __Statement__ object
+* Statement can be a __normal one__ or a __prepared statement__
 * Close your Connection
 
 
