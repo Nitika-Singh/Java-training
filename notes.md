@@ -208,6 +208,29 @@ read(new HistoryBook());
 * __jar cf monday.jar com/jpmc/*.class__
 * __java -cp ./monday.jar com.jpmc.Bye__
 
+#### JDBC API
+
+* __java.sql__
+* Create a connection using __Connection__object 
+* Pass your SQL queries using __Statement__ object
+* Close your Connection
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

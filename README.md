@@ -71,10 +71,10 @@
 * [x] Hierarchy of Exception.
 * [x] Throwing our Exceptions.
 
-* Understanding the concept of packages.
+* [x] Understanding the concept of packages.
 * [x] Making our own package
 * [x] Understanding access specifier.
-* Making our own jar file and setting in classpath.
+* [x] Making our own jar file and setting in classpath.
 * GENERICS & COLLECTION 
 
 * [x] List Interface
@@ -90,16 +90,16 @@
 * Polymorphism and Generics
 * Mixing Generic and Non Generic Collection.
 
-* Pom (Concepts, Setup, Commands)
-* Maven  (Concepts, Setup, Commands)
+* [x] Pom (Concepts, Setup, Commands)
+* [x] Maven  (Concepts, Setup, Commands)
 * Date and Time API
 * JDBC API
 
-* Java I/O 
-* File Navigation
-* Input Output with Disk Files
+* [x] Java I/O 
+* [x] File Navigation
+* [x] Input Output with Disk Files
 * Serialization
-* Java NIO
+* [x] Java NIO
 
 
 * Threads
