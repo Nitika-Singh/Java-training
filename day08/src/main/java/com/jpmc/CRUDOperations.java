@@ -1,9 +1,6 @@
 package com.jpmc;
 
-import java.sql.Connection;
-import java.sql.DriverManager;
-import java.sql.SQLException;
-import java.sql.Statement;
+import java.sql.*;
 
 public class CRUDOperations {
     private static String connectionString = "jdbc:mysql://localhost/training";
@@ -16,13 +13,28 @@ public class CRUDOperations {
             connection = DriverManager.getConnection(connectionString, userName, password);
             //insertPerson(connection);
             //updateAge(connection);
+            selectPersons(connection);
         } catch (SQLException e) {
             e.printStackTrace();
         }
         finally {
             connection.close();
         }
+    }
 
+    private static void selectPersons(Connection connection) throws SQLException {
+        String selectQuery = "SELECT * FROM persons";
+        Statement statement = connection.createStatement();
+        ResultSet resultSet = statement.executeQuery(selectQuery);
+        while(resultSet.next()) {
+            int id = resultSet.getInt("id");
+            String name = resultSet.getString("name");
+            int age = resultSet.getInt("age");
+            //System.out.println(id + " " + name + " age");
+            System.out.println(String.format("Id: %d, Name: %s, Age: %d", id, name, age));
+        }
+        resultSet.close();
+        statement.close();
     }
 
     private static void updateAge(Connection connection) throws SQLException {
